@@ -189,7 +189,7 @@ low resources
 - Total IP addresses = 2^24 = 16,777,216  
 - Usable IPs = 16,777,216 - 2 = 16,777,214 hosts
 
-````
+
 # What is a Computer?
 
 A computer is a machine that can perform calculations, process data, and store information.
@@ -267,4 +267,4 @@ It includes OS,software and settings need to start an intances
 
 Internal communication should be done using private key
 External comminucation should be done using public key
-````
+
