@@ -268,3 +268,8 @@ It includes OS,software and settings need to start an intances
 Internal communication should be done using private key
 External comminucation should be done using public key
 
+## AWS:
+ssh-keygen -f <fiename --- to create pub and private keys
+ssh -i <private> ec2-user@publickey ---->> to login into aws
+
+
