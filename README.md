@@ -189,3 +189,82 @@ low resources
 - Total IP addresses = 2^24 = 16,777,216  
 - Usable IPs = 16,777,216 - 2 = 16,777,214 hosts
 
+````
+# What is a Computer?
+
+A computer is a machine that can perform calculations, process data, and store information.
+
+---
+
+# What is a Server?
+
+A **server** is a system that hosts applications and provides services to other computers (clients) over a network.
+
+---
+
+# Client-Server Architecture
+
+**Client-Server Architecture** is a design pattern used in network computing. It contains two main components to interact:
+
+1. **Client**  
+2. **Server**
+**Client**  : A client is any device or application that sends a request to the server.
+**Server** : A server is a system or program that waits for requests from clients and responds to them.
+
+Client (Browser/App)  ---> sends request --->  Server (Backend)
+Client (Browser/App)  <--- receives data <---  Server (Backend)
+
+---
+
+# Common Issues After Hitting a URL in the Browser
+
+If there is any issue after accessing something in a browser, it could be due to:
+
+1. **Network Application Issues**  
+2. **Application Issues**
+
+---
+
+# How to Connect to a Server
+
+### Required Components:
+- **Protocols**: `http` / `https`
+- **Ports**: `80` / `443`
+- **IP Address**: DNS or IP Address
+- **Username**: Required for login
+- **Password**: Required for authentication
+
+---
+
+# SSH (Secure Shell)
+
+- **SSH**: Secure Shell, used to securely connect to remote servers.
+- **Default Port**: `22`
+- Linux servers typically work over SSH.
+
+---
+
+# Types of Network Traffic
+
+1. **Inbound Traffic** – Incoming traffic to a server.
+2. **Outbound Traffic** – Outgoing traffic from a server.
+
+---
+
+# Types of Keys
+
+1. **Private Key** – Used to authenticate and decrypt data.
+2. **Public Key** – Shared with others to encrypt data.
+
+AMI -----> Amazon machine image
+AMI name ----> devops-practice
+password -----> DevOps321
+user name -----> ec2-user
+
+It is not keybased is password. 
+It is a template used to lanch the Ec2 instances in AWS.
+It includes OS,software and settings need to start an intances
+
+Internal communication should be done using private key
+External comminucation should be done using public key
+````
