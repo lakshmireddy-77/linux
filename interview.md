@@ -29,3 +29,22 @@ find /path -type f ---> It will give all files
 find /path -type d ---> It will give all floders
 # to search file larger than 100mb:
 find /path -size +10M
+# to view idone number for a file
+ls -i <filename>
+# to see metadata/all info
+stat <filename> 
+df -i
+# to count the words
+wc -w <filename>
+# shred command delets the files permenately which is unable to revore
+shred --remove <filename>
+# to check the architecture info
+dmidecode
+# to sort the content
+# to check Ip is associated or not
+ping <service name>
+telnet <service name>
+# to see the port number
+netstat -lntp
+# to check the specfic open port numbers
+netstat -putan | grep 22
