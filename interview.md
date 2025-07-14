@@ -65,5 +65,18 @@ u ----  display the root/user processes
 x --- it igones the backgruond processes (demon)
 
 --sort=%mem ---- by deaulat it will give ASC order
-
+# top 10 commands mostly used
+cp
+mv
+cat
+less
+grep
+find
+ls
+top,htop
+systemctl
+chmod,chown
+df, df -h, df -sh
 ---------------------SHELL-------------
+# to see the ehich shell are you running
+echo $0
