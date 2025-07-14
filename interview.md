@@ -1,10 +1,11 @@
+---------------------------linux -----------------------
 # to check the current user: 
 whoami
 pwd ---present wrd
 
 # we can filter multiple strings using grep and we can filter single also:
 to print single srting : cat <filename> | grep <word>
-to print multipe srting : cat <filename> | grep <word> | grep <word>
+to print multipe srting : cat <filename> | grep <word>|grep <word>
 it will give result 2 words combination
 # we can filter multiple strings using egrep
 to print multipe srting : cat <filename> | grep '(<word>| <word>)
@@ -41,6 +42,7 @@ shred --remove <filename>
 # to check the architecture info
 dmidecode
 # to sort the content
+cat <filename> | sort
 # to check Ip is associated or not
 ping <service name>
 telnet <service name>
@@ -48,3 +50,20 @@ telnet <service name>
 netstat -lntp
 # to check the specfic open port numbers
 netstat -putan | grep 22
+# to check the size of the floder
+du -sh <flodername>
+# to see the running logs
+pending
+# to see the meomory usage
+free -h 
+# list the top 10 process based on the memory usage
+ps aux --sort=%mem | head -n 10
+
+ps --- to display the active process
+a ---- show process for all users 
+u ----  display the root/user processes
+x --- it igones the backgruond processes (demon)
+
+--sort=%mem ---- by deaulat it will give ASC order
+
+---------------------SHELL-------------
