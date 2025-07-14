@@ -77,6 +77,8 @@ top,htop
 systemctl
 chmod,chown
 df, df -h, df -sh
+# restore the lost pem file? if not how can you acess the instances 
+
 ---------------------SHELL-------------
 # to see the ehich shell are you running
 echo $0
