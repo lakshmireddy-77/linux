@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linux
 
 
@@ -406,3 +407,6 @@ Publisher → [Topic] → Subscriber 1
 - `gg`→ It will take to top of the file
 - `shift+g`→ Takes to the bottom of the file
 
+=======
+# Linux
+>>>>>>> f64873e1ec2fbf4d369a1c94fe29f7d075843d08
