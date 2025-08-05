@@ -30,7 +30,7 @@ chmod 600 authorized_keys
 
 # 8. Set correct ownership
 cd ..
-chown -R ramesh:ramesh .ssh
+chown -R ramesh:ramesh -R .ssh
 
 
 ----------- On Client Machine (2nd Terminal) -----------
@@ -57,6 +57,8 @@ ssh -i ramesh ramesh@<public_ip>
 
 
 ----------- Permissions Recap -----------
+chmod 700 /home/ramesh/.ssh
+ls -ld /home/ramesh/.ssh
 
 /home/ramesh/.ssh             -> 700 (ramesh:ramesh)
 /home/ramesh/.ssh/authorized_keys -> 600 (ramesh:ramesh)
